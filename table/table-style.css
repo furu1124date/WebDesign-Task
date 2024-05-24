@@ -1,20 +1,27 @@
-th{
-    background-color: blueviolet;
+th, td{
+    background-color: rgb(47, 169, 132);
     margin-bottom: 20px;
+    font-size: 160%;
 }
 table, th, td, caption{
     border: solid 1px black;
     border-collapse: collapse;
 }
-th, td{
-    padding: 10px;
-}
 th, td, caption{
-    padding: 50px;
+    padding: 10px;
 }
 table td{
     word-break: break-word;
 }
 img{
     width: 200px;
+}
+body{
+    background-image: url(https://www.jra-f.co.jp/wpkanri/wp-content/uploads/2018/08/tokyo01.jpg);
+    background-size: cover;
+    font-family: "HG創英ﾌﾟﾚｾﾞﾝｽEB", serif;
+}
+caption{
+    background-color: brown;
+    font-size: 350%;
 }
