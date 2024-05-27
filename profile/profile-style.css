@@ -1,0 +1,16 @@
+@charset "utf-8";
+.txet-orange{
+    background-color: orange;
+}
+li{
+    color: aqua;
+}
+#bg-rgb{
+    background-color: rgb(47, 169, 132);
+}
+.bg-blue{
+    background-color: blue;
+}
+span{
+    border: 2px dotted gold;
+}
