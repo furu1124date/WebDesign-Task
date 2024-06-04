@@ -1,0 +1,7 @@
+@charset "utf-8";
+input[type]{
+    border: 1px red solid;
+}
+a{
+    font-size: 0.7rem;
+}
