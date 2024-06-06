@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登録フォーム</title>
+    <link rel="stylesheet" href="register-style.css">
+</head>
+
+<body>
+    <div class="registra-form">
+        <form action="#" method="get" enctype="multipart/form-data">
+            <p>登録内容を入力してください</p>
+            <label>ID(メールアドレス)</label>
+            <input type="email" name="email"><br>
+
+            <label>パスワード</label>
+            <input type="password" name="password">
+            パスワードを表示する<input type="checkbox" name="password"><br>
+
+            <label>氏名</label>
+            姓<input type="text" name="text" placeholder="盛岡" required>
+            名<input type="text" name="text" placeholder="太郎" required><br>
+
+            <label>住所</label>
+            〒<input type="text" name="" size="8" value="編集不可" readonly><br>
+            <input type="text" name="" value="編集不可" readonly><br>
+            <input type="text" name="" placeholder="番地" required><br>
+            <input type="text" name="" size=30 placeholder="建物名" required><br>
+
+            <label>電話番号</label>
+            <input type="tel" name="tel"><br>
+
+            <label>学科・学年</label>
+            学科:<select name="blood_type" required>
+                <option value="">選択してください</option>
+                <option value="システム系学科">システム系学科</option>
+                <option value="ビジネス系学科">ビジネス系学科</option>
+                <option value="デザイン系学科">デザイン系学科</option>
+            </select><br>
+        </form>
+    </div>
+</body>
+
+</html>

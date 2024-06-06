@@ -1,7 +1,11 @@
 @charset "utf-8";
-input[type]{
+
+input[type] {
     border: 1px red solid;
+    margin: 5px;
 }
-a{
+
+a {
     font-size: 0.7rem;
 }
+
