@@ -15,7 +15,7 @@
             <table>
                 <tr>
                     <th>ID<span class="required">(必須)</span><span> (メールアドレス)</span></th>
-                    <td><input type="email" name="email" placeholder="xxx@morijyobi.ac.jp" required></td>
+                    <td><input type="email" name="email" size="30" placeholder="xxx@morijyobi.ac.jp" required></td>
                 </tr>
 
                 <tr>
@@ -37,17 +37,17 @@
                 <tr>
                     <th>住所</th>
                     <td>
-                        〒<input type="text" name="address" size="8" value="020-0021" readonly><br>
+                        〒<input type="text" name="post code" size="8" value="020-0021" readonly><br>
                         <input type="text" name="address" value="岩手県盛岡市中央通3丁目" readonly><br>
-                        <input type="text" name="address" placeholder="番地" required><br>
-                        <input type="text" name="address" size=30 placeholder="建物名" required>
+                        <input type="text" name="street address" placeholder="番地" required><br>
+                        <input type="text" name="building" size=30 placeholder="建物名" required>
                     </td>
                 </tr>
 
                 <tr>
                     <th>電話番号<span class="required">(必須)</span><span> (ハイフンなし)</span></th>
                     <td>
-                        <input type="tel" name="tel"><br>
+                        <input type="tel" name="tel" required><br>
                     </td>
                 </tr>
 
